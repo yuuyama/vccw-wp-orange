@@ -83,7 +83,7 @@ if( count($error_list) == 0 ){
 <div class="container">
     <div class="row">
         <div class="col-md-offset-2 col-md-8">
-            <h2 class="text-center">送信フォーム</h2>
+            <h2 class="text-center">申込フォーム</h2>
         </div>
         <?php if(isset($error_list)): ?>
         <div class="col-md-offset-2 col-md-8">
@@ -117,7 +117,7 @@ if( count($error_list) == 0 ){
                     
                     <!-- tel -->
                     <div class="form-group">
-                        <label class="col-xs-3 control-label">電話番号</label>
+                        <label class="col-xs-3 control-label">電話</label>
                         <div class="col-xs-9">
                             <input type="text" class="form-control" name="tel" value="<?php echo $tel; ?>" placeholder="0311112222" />
                         </div>
